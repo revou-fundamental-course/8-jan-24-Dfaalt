@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator Persegi</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="persegi">
+      <img
+        src="https://o-cdn-cas.sirclocdn.com/parenting/images/Persegi_finirezyhome.wordpress.co.width-500.format-webp.webp"
+        alt=""
+      />
+    </div>
+    <form id="kalkulator-form">
+      <label for="sisi">Masukkan sisi persegi:</label>
+      <input type="number" id="sisi" placeholder="Masukkan angka" />
+      <button type="submit">Hitung</button>
+    </form>
+    <div id="hasil">
+      <p>Luas: <span id="luas"></span></p>
+      <p>Keliling: <span id="keliling"></span></p>
+      <p>Luas = sisi x sisi</p>
+      <p>Keliling = 4 x sisi</p>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
